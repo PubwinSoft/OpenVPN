@@ -14,6 +14,8 @@ wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh &&
 
 ## 安装过程中有几处需要单击回车或输入yes，在相关命令执行前均会有提示，例如
 ````
+（前面的输出省略）
+
 Tips:请单击回车键
 
 Note: using Easy-RSA configuration from: /etc/openvpn/easy-rsa/vars
@@ -35,8 +37,8 @@ Common Name (eg: your user, host, or server name) [client1]:（回车）
 Keypair and certificate request completed. Your files are:
 req: /etc/openvpn/easy-rsa/pki/reqs/client1.req
 key: /etc/openvpn/easy-rsa/pki/private/client1.key
-````
-````
+
+
 请输入yes
 
 Note: using Easy-RSA configuration from: /etc/openvpn/easy-rsa/vars
@@ -67,6 +69,8 @@ Write out database with 1 new entries
 Data Base Updated
 
 Certificate created at: /etc/openvpn/easy-rsa/pki/issued/server1.crt
+
+（后面的输出省略）
 ````
 # 
 #### 为了方便兼容，sh脚本中指定了easy-rsa安装的版本，该操作不会影响到安全问题
