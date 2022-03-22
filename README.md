@@ -5,11 +5,11 @@
 # 
 # 一键安装命令
 ````
-wget https://raw.githubusercontent.com/linglaoda/Openvpn-/main/install.sh && bash install.sh
+wget https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
 ## 如您要部署的服务器无法连接至GitHub,您可以使用
 ````
-wget https://cdn.jsdelivr.net/gh/linglaoda/openvpn-@main/install.sh && bash install.sh
+wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
 ````
 # 
 #### 为了方便兼容，sh脚本中指定了easy-rsa安装的版本，该操作不会影响到安全问题
