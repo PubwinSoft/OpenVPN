@@ -115,4 +115,4 @@ cd /etc/openvpn
 tar -zcvf client.tar.gz client/
 
 echo ---安装完毕---
-echo 您可以使用 sz /etc/openvpn/client.tar.gz 命令将VPN连接文件传输到您的电脑
+echo 您可以使用 sz /etc/openvpn/client.tar.gz 命令将VPN连接文件传输到您的电脑，或手动进行下载
