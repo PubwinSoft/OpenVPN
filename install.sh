@@ -2,7 +2,7 @@
 
 # Code by linglaoda
 # Blog：bingling.me
-# Project Url：https://github.com/linglaoda/Openvpn-
+# Project Url：https://github.com/linglaoda/Openvpn-deployment
 # 本脚本无法在Ubuntu系统中运行
 
 
@@ -73,7 +73,7 @@ cp pki/crl.pem /etc/openvpn/server/
 # cd到server目录
 cd /etc/openvpn/server
 # 下载配置文件
-wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-@main/datas/server.conf
+wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/datas/server.conf
 
 # 开启内核转发
 echo 'net.ipv4.ip_forward = 1' >> /etc/sysctl.conf
@@ -95,7 +95,7 @@ systemctl start openvpn-server@server
 cd /etc/openvpn/client
 
 # 下载client配置文件
-wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-@main/datas/client.conf
+wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/datas/client.conf
 
 echo 请输入您的服务器外网IP
 read IP
@@ -103,6 +103,8 @@ echo IP为:$IP
 
 # 替换配置文件中的#IP#
 sed -i "s/#IP#/$IP/g" client.conf
+
+echo 配置文件已写入
 
 # 修改文件名
 mv client.conf client.ovpn
