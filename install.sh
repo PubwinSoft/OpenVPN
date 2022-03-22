@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Code by linglaoda
+# Blog：bingling.me
+# Project Url：https://github.com/linglaoda/Openvpn-
+# 本脚本无法在Ubuntu系统中运行
+
+
+
 # 关闭selinux
 sed -i '/^SELINUX/s/enforcing/disabled/g' /etc/selinux/config
 setenforce 0
