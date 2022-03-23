@@ -16,8 +16,6 @@
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
 > 如服务器无法访问Github raw,您可以将脚本手动复制至服务器
-
-> 暂不推荐使用由Jsdelivr提供的CDN进行脚本下载，经过测试，新版本更新后 JsdelivrCDN 无法及时同步
 ***
 
 
