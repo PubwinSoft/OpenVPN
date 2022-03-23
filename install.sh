@@ -167,9 +167,9 @@ echo -To connect using a domain name, make sure the domain name is resolved to t
 
 
 
-echo 请输入您的服务器外网IP 或域名  Enter IP or domain name:
+echo 请输入您的服务器外网IP *或域名*  Enter IP or domain name:
 read IP
-echo IP 域名 为 IP or domain name is:$IP
+echo IP或域名为 IP or domain name is:$IP
 
 # 替换配置文件中的#IP#
 sed -i "s/#IP#/$IP/g" client.conf
@@ -190,7 +190,7 @@ clear
 echo ------安装完毕------
 echo ------successful------
 echo  
-echo 您可以使用 sz /etc/openvpn/client.tar.gz 命令将VPN连接文件传输到您的电脑(仅xshell支持)
+echo 您可以使用 sz /etc/openvpn/client.tar.gz 命令将VPN连接文件传输到您的电脑 *仅xshell支持*
 echo 或手动下载位于: /etc/openvpn/client.tar.gz 的文件，此压缩包包含.ovpn文件及密钥证书文件。
 echo Openvpn官网: https://www.openvpn.net 您可以在这里下载Openvpn客户端
 echo 直接将 client.tar.gz 文件解压后将client.ovpn导入Openvpn客户端即可，请不要将压缩包中的ctr,key文件删除,这些文件相当于您的vpn连接密码,使用ovpn文件时会自动调用，所以请将压缩包内的文件解压到同一个文件夹中
@@ -201,7 +201,7 @@ echo 若无法连接，切确保您的路由器端口转发配置正确，或外
 echo  
 echo  
 
-echo You can use the sz /etc/openvpn/client.tar.gz command to transfer the VPN connection file to your computer (supported by xshell only)
+echo You can use the sz /etc/openvpn/client.tar.gz command to transfer the VPN connection file to your computer *supported by xshell only*
 echo or manually download the file located at: /etc/openvpn/client.tar.gz, this compressed package contains the .ovpn file and the key certificate file.
 echo Openvpn official website: https://www.openvpn.net You can download the Openvpn client here
 echo directly decompress the client.tar.gz file and import client.ovpn into the Openvpn client. Please do not delete the ctr and key files in the compressed package. These files are equivalent to your vpn connection password. When using the ovpn file, the It is called automatically, so please unzip the files in the compressed package to the same folder
