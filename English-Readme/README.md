@@ -10,7 +10,8 @@
 
 ***
 
-# ✨ Deployment command
+# ✨ Install & Uninstall
+# 1. Installation
 ## 1.Github raw download (recommended)
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
@@ -19,9 +20,15 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 ````
 wget -N https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
 ````
+> The above commands can be run according to the actual situation. The obtained scripts are the same, but the download method is different.
+***
+# 2. Uninstall
+
+````
+yum -y remove epel-release && yum -y remove openvpn easy-rsa
+````
 
 #
-> The above commands can be run according to the actual situation. The obtained scripts are the same, but the download method is different.
 ***
 
 # 🌠Deployment video
