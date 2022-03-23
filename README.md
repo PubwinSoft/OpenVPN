@@ -1,3 +1,8 @@
+## 🌐 Other languages
+#### [English](https://github.com/linglaoda/Openvpn-deployment/tree/main/English-Readme)
+
+***
+
 # Centos Openvpn快速部署脚本
 #### 目前已在Centos7及Centos8系统中测试，均可正常运行
 ##### ⚠ 因Ubuntu使用的是apt而非yum,故本脚本无法在Ubuntu系统中使用
