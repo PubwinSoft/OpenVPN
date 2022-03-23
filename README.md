@@ -21,7 +21,7 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 ***
 
 
-# ❌卸载
+## ❌卸载
 
 ````
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
