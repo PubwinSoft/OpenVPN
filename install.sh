@@ -159,17 +159,17 @@ wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/datas/client.
 clear
 
 echo ------文件配置------
-echo ---IP地址(或域名)配置---
+echo ---IP地址 或域名 配置---
 echo -如需使用域名连接，请确保域名已解析至服务器-
 echo ------File configuration------
-echo ---IP address (or domain name) configuration---
+echo ---IP address or domain name configuration---
 echo -To connect using a domain name, make sure the domain name is resolved to the server-
 
 
 
-echo 请输入您的服务器外网IP(或域名) Enter IP or domain name:
+echo 请输入您的服务器外网IP 或域名  Enter IP or domain name:
 read IP
-echo IP(域名)为 IP or domain name is:$IP
+echo IP 域名 为 IP or domain name is:$IP
 
 # 替换配置文件中的#IP#
 sed -i "s/#IP#/$IP/g" client.conf
@@ -207,4 +207,4 @@ echo Openvpn official website: https://www.openvpn.net You can download the Open
 echo directly decompress the client.tar.gz file and import client.ovpn into the Openvpn client. Please do not delete the ctr and key files in the compressed package. These files are equivalent to your vpn connection password. When using the ovpn file, the It is called automatically, so please unzip the files in the compressed package to the same folder
 echo
 echo ------ prompt ------
-If echo fails to connect, make sure your router's port forwarding configuration is correct, or the external firewall has allowed port 1194
+echo If you can't connect, make sure your router's port forwarding configuration is correct, or the external firewall has allowed port 1194
