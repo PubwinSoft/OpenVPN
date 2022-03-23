@@ -12,11 +12,11 @@
 # ✨ 部署命令
 ## 1.Github raw方式下载（推荐）
 ````
-wget https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
+wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
 ## 2.Jsdelivr CDN下载（仅在服务器无法访问Github时使用）
 ````
-wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
+wget -N https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
 ````
 
 # 
