@@ -189,6 +189,8 @@ clear
 
 echo ------安装完毕------
 echo  
+echo 服务已设置开机自启
+echo  
 echo 您可以使用 sz /etc/openvpn/client.tar.gz 命令将VPN连接文件传输到您的电脑 *仅xshell支持*
 echo 或手动下载位于: /etc/openvpn/client.tar.gz 的文件，此压缩包包含.ovpn文件及密钥证书文件。
 echo Openvpn官网: https://www.openvpn.net 您可以在这里下载Openvpn客户端
@@ -200,6 +202,9 @@ echo 若无法连接，切确保您的路由器端口转发配置正确，或外
 echo  
 echo  
 echo ------successful------
+echo  
+echo The service has been set to start automatically at boot
+echo  
 echo You can use the sz /etc/openvpn/client.tar.gz command to transfer the VPN connection file to your computer *supported by xshell only*
 echo or manually download the file located at: /etc/openvpn/client.tar.gz, this compressed package contains the .ovpn file and the key certificate file.
 echo Openvpn official website: https://www.openvpn.net You can download the Openvpn client here
