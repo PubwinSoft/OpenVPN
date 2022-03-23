@@ -9,9 +9,9 @@
 
 ***
 
-# ✨ 安装&卸载
-# 🔮安装
-## 将如下命令复制至终端并运行：
+# ✨ 快速部署
+## 🔮安装
+### 将如下命令复制至终端并运行：
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
@@ -19,6 +19,8 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 
 > 暂不推荐使用由Jsdelivr提供的CDN进行脚本下载，经过测试，新版本更新后 JsdelivrCDN 无法及时同步
 ***
+
+
 # ❌卸载
 
 ````
