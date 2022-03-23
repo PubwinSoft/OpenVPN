@@ -11,15 +11,11 @@
 
 # ✨ 安装&卸载
 # 一、安装
-## 使用 Github raw 方式下载脚本（推荐）
+## 将如下命令复制至终端：
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
-## 使用 Jsdelivr CDN 下载脚本（仅在服务器无法访问Github时使用）
-````
-wget -N https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
-````
-> 以上命令按照实际情况二选一运行即可，获取到的脚本都是一样的，只不过是下载的途径不一样
+> 如服务器无法访问Github raw,您可以将脚本手动复制至服务器
 ***
 # 二、卸载
 
