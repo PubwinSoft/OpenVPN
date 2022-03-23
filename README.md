@@ -10,14 +10,14 @@
 ***
 
 # ✨ 安装&卸载
-# 一、安装
+# 安装
 ## 将如下命令复制至终端：
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
 > 如服务器无法访问Github raw,您可以将脚本手动复制至服务器
 ***
-# 二、卸载
+# 卸载
 
 ````
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
