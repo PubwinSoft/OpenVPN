@@ -11,24 +11,21 @@
 ***
 
 # ✨ Install & Uninstall
-# 1. Installation
-## 1.Github raw download (recommended)
+## 🔮Install
+### Copy the following command to the terminal and run:
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
-## 2. Jsdelivr CDN download (only used when the server cannot access Github)
-````
-wget -N https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
-````
-> The above commands can be run according to the actual situation. The obtained scripts are the same, but the download method is different.
+> If the server cannot access Github raw, you can manually copy the script to the server
 ***
-# 2. Uninstall
+
+
+## ❌Uninstall
 
 ````
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
 ````
-> After uninstalling, all services related to Openvpn cannot be used, please operate with caution
-
+> ❕ All services related to Openvpn cannot be used after uninstallation, please operate with caution
 #
 ***
 
@@ -40,3 +37,4 @@ yum -y remove epel-release && yum -y remove openvpn easy-rsa
 # 🌌Other
 ##### Openvpn official website: https://openvpn.net/
 ##### Official download: https://openvpn.net/vpn-client/
+##### Mine Blog：bingling.me
