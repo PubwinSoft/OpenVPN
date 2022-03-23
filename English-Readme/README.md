@@ -13,11 +13,11 @@
 # ✨ Deployment command
 ## 1.Github raw download (recommended)
 ````
-wget https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
+wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
 ## 2. Jsdelivr CDN download (only used when the server cannot access Github)
 ````
-wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
+wget -N https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
 ````
 
 #
