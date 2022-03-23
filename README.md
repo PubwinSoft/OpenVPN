@@ -10,19 +10,21 @@
 ***
 
 # ✨ 安装&卸载
-# 安装
-## 将如下命令复制至终端：
+# 🔮安装
+## 将如下命令复制至终端并运行：
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
 ````
 > 如服务器无法访问Github raw,您可以将脚本手动复制至服务器
+
+> 暂不推荐使用由Jsdelivr提供的CDN进行脚本下载，经过测试，新版本更新后 JsdelivrCDN 无法及时同步
 ***
-# 卸载
+# ❌卸载
 
 ````
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
 ````
-> 卸载后所有有关于Openvpn的服务均无法使用,请谨慎操作
+> ❕卸载后所有有关于Openvpn的服务均无法使用,请谨慎操作
 # 
 ***
 
