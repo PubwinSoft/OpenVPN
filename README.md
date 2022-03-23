@@ -36,3 +36,4 @@ yum -y remove epel-release && yum -y remove openvpn easy-rsa
 # 🌌Other
 ##### Openvpn官方网站：https://openvpn.net/
 ##### 官方下载：https://openvpn.net/vpn-client/
+##### 我的博客：bingling.me
