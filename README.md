@@ -9,7 +9,8 @@
 
 ***
 
-# ✨ 部署命令
+# ✨ 安装&卸载
+# 一、安装
 ## 1.Github raw方式下载（推荐）
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
@@ -18,9 +19,15 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 ````
 wget -N https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh && bash install.sh
 ````
+> 以上命令按照实际情况二选一运行即可，获取到的脚本都是一样的，只不过是下载的途径不一样
+***
+# 二、卸载
+
+````
+yum -y remove epel-release && yum -y remove openvpn easy-rsa
+````
 
 # 
-> 以上命令按照实际情况二选一运行即可，获取到的脚本都是一样的，只不过是下载的途径不一样
 ***
 
 # 🌠部署视频
