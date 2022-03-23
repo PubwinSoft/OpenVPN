@@ -27,6 +27,7 @@ wget -N https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/install.sh
 ````
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
 ````
+> After uninstalling, all services related to Openvpn cannot be used, please operate with caution
 
 #
 ***
