@@ -40,8 +40,8 @@ echo ---Generate CA certificate---
 
 clear
 echo ------证书生成------
-echo ---请单击回车键---
 echo ------certificate generation------
+echo ---请单击回车键---
 echo ---Please click the enter key---
 
 
@@ -49,8 +49,8 @@ echo ---Please click the enter key---
 
 clear
 echo ------证书生成------
-echo ---请单击回车键---
 echo ------certificate generation------
+echo ---请单击回车键---
 echo ---Please click the enter key---
 
 ./easyrsa gen-req server1 nopass
@@ -58,8 +58,8 @@ echo ---Please click the enter key---
 # 签署密钥
 clear
 echo ------签署密钥------
-echo ---请输入yes--
 echo ------ signing key ------
+echo ---请输入yes--
 echo ---Please enter yes--
 
 ./easyrsa sign-req server server1
@@ -67,8 +67,8 @@ echo ---Please enter yes--
 
 clear
 echo ------证书生成------
-echo ---请单击回车键---
 echo ------certificate generation------
+echo ---请单击回车键---
 echo ---Please click the enter key---
 
 
@@ -76,8 +76,8 @@ echo ---Please click the enter key---
 
 clear
 echo ------证书生成------
-echo ---请单击回车键---
 echo ------certificate generation------
+echo ---请单击回车键---
 echo ---Please click the enter key---
 
 ./easyrsa gen-req client1 nopass
@@ -85,8 +85,8 @@ echo ---Please click the enter key---
 # 签署密钥
 clear
 echo ------签署密钥------
-echo ---请输入yes--
 echo ------ signing key ------
+echo ---请输入yes--
 echo ---Please enter yes--
 
 
