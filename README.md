@@ -32,10 +32,16 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 </br>
 
 ## ❌卸载
-
+### Centos
 ````
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
 ````
+
+### Ubuntu
+````
+apt -y remove openvpn easy-rsa && rm -rf /etc/openvpn
+````
+
 > ❕卸载后所有有关于Openvpn的服务均无法使用,请谨慎操作
 # 
 
