@@ -6,7 +6,11 @@
 # Openvpn快速部署脚本
 #### 目前已在 Centos7,Centos8及Ubuntu 20.04 LTS 系统中测试，均可正常运行
 
+</br>
+
 ***
+
+</br>
 
 # ✨ 安装&卸载
 ## 🔮安装
@@ -18,9 +22,14 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-ubuntu.sh && bash install-ubuntu.sh
 ````
+> Ubuntu系统下请切换至root用户执行脚本
 > 如服务器无法访问Github raw,您可以将脚本手动复制至服务器
+
+</br>
+
 ***
 
+</br>
 
 ## ❌卸载
 
@@ -29,12 +38,21 @@ yum -y remove epel-release && yum -y remove openvpn easy-rsa
 ````
 > ❕卸载后所有有关于Openvpn的服务均无法使用,请谨慎操作
 # 
+
+</br>
+
 ***
+
+</br>
 
 # 🌠部署视频
 #### 在做了...
 
+</br>
+
 ***
+
+</br>
 
 # 🌌Other
 ##### Openvpn官方网站：https://openvpn.net/
