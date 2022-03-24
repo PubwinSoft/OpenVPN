@@ -3,9 +3,9 @@
 
 ***
 
-# Openvpn快速部署脚本
+# Centos Openvpn快速部署脚本
 #### 目前已在 Centos7,Centos8 系统中测试，均可正常运行
-
+##### ⚠ 因Ubuntu系统与Centos系统安装过程存在出入，故本脚本无法用与Ubuntu
 </br>
 
 ***
