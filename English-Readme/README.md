@@ -4,37 +4,64 @@
 
 ***
 
-# Centos Openvpn quick deploy script
-#### It has been tested in Centos7 and Centos8 systems, and they can run normally
-##### ⚠ Since Ubuntu uses apt instead of yum, this script cannot be used in Ubuntu system
+# Openvpn quick deploy script
+#### Currently tested on Centos7, Centos8 and Ubuntu 20.04 LTS systems, all of which can work normally
+
+</br>
 
 ***
+
+</br>
 
 # ✨ Install & Uninstall
 ## 🔮Install
-### Copy the following command to the terminal and run:
+### CentOS
 ````
-wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
+wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-centos.sh && bash install-centos.sh
 ````
+###Ubuntu
+````
+wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-ubuntu.sh && bash install-ubuntu.sh
+````
+> In Ubuntu system, please switch to the root user to execute the script
 > If the server cannot access Github raw, you can manually copy the script to the server
+
+</br>
+
 ***
 
+</br>
 
 ## ❌Uninstall
-
+### Centos
 ````
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
 ````
+
+###Ubuntu
+````
+apt -y remove openvpn easy-rsa && rm -rf /etc/openvpn
+````
+
 > ❕ All services related to Openvpn cannot be used after uninstallation, please operate with caution
 #
+
+</br>
+
 ***
+
+</br>
 
 # 🌠Deployment video
 #### Doing...
 
+</br>
+
 ***
+
+</br>
 
 # 🌌Other
 ##### Openvpn official website: https://openvpn.net/
 ##### Official download: https://openvpn.net/vpn-client/
-##### Mine Blog：bingling.me
+##### My blog: https://bingling.me
