@@ -18,7 +18,7 @@ setenforce 0
 # 安装epel,openvpn,Easy-RSA
 yum -y install epel-release
 yum -y install openvpn
-yum -y install easy-rsa-3.0.8-1.el7
+yum -y install easy-rsa-3.0.8
 
 # 新建目录
 mkdir /etc/openvpn/easy-rsa/
