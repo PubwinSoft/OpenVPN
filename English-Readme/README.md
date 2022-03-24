@@ -19,11 +19,6 @@
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-centos.sh && bash install-centos.sh
 ````
-### Ubuntu
-````
-wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-ubuntu.sh && bash install-ubuntu.sh
-````
-> In Ubuntu system, please switch to the root user to execute the script
 > If the server cannot access Github raw, you can manually copy the script to the server
 
 </br>
@@ -38,10 +33,6 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
 ````
 
-### Ubuntu
-````
-apt -y remove openvpn easy-rsa && rm -rf /etc/openvpn
-````
 
 > ❕ All services related to Openvpn cannot be used after uninstallation, please operate with caution
 #
