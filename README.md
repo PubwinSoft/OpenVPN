@@ -3,17 +3,21 @@
 
 ***
 
-# Centos Openvpn快速部署脚本
-#### 目前已在Centos7及Centos8系统中测试，均可正常运行
+# Openvpn快速部署脚本
+#### 目前已在Centos7,Centos8及Ubuntu 系统中测试，均可正常运行
 ##### ⚠ 因Ubuntu使用的是apt而非yum,故本脚本无法在Ubuntu系统中使用
 
 ***
 
 # ✨ 安装&卸载
 ## 🔮安装
-### 将如下命令复制至终端并运行：
+### CentOS
 ````
-wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install.sh && bash install.sh
+wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-centos.sh && bash install-centos.sh
+````
+### Ubuntu
+````
+wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-ubuntu.sh && bash install-ubuntu.sh
 ````
 > 如服务器无法访问Github raw,您可以将脚本手动复制至服务器
 ***
