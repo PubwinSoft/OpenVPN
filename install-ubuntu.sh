@@ -15,10 +15,9 @@ echo ------Configure dependent environment and prerequisite software package----
 sed -i '/^SELINUX/s/enforcing/disabled/g' /etc/selinux/config
 setenforce 0
 
-# 安装epel,openvpn,Easy-RSA
-apt -y install epel-release
+# 安装openvpn,Easy-RSA
 apt -y install openvpn
-apt -y install easy-rsa-3.0.8
+apt -y install easy-rsa=3.0.6-1
 
 # 新建目录
 mkdir /etc/openvpn/easy-rsa/
