@@ -23,7 +23,7 @@ apt -y install easy-rsa=3.0.6-1
 mkdir /etc/openvpn/easy-rsa/
 #拷贝文件
 cp -r /usr/share/easy-rsa/* /etc/openvpn/easy-rsa/
-cp -p /usr/share/doc/easy-rsa/vars.example /etc/openvpn/easy-rsa/vars
+cp -p /usr/share/easy-rsa/vars.example /etc/openvpn/easy-rsa/vars
 
 
 clear
