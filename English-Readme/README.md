@@ -19,7 +19,7 @@
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-centos.sh && bash install-centos.sh
 ````
-###Ubuntu
+### Ubuntu
 ````
 wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-ubuntu.sh && bash install-ubuntu.sh
 ````
@@ -38,7 +38,7 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 yum -y remove epel-release && yum -y remove openvpn easy-rsa
 ````
 
-###Ubuntu
+### Ubuntu
 ````
 apt -y remove openvpn easy-rsa && rm -rf /etc/openvpn
 ````
