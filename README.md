@@ -4,8 +4,7 @@
 ***
 
 # Openvpn快速部署脚本
-#### 目前已在Centos7,Centos8及Ubuntu 系统中测试，均可正常运行
-##### ⚠ 因Ubuntu使用的是apt而非yum,故本脚本无法在Ubuntu系统中使用
+#### 目前已在 Centos7,Centos8及Ubuntu 20.04 LTS 系统中测试，均可正常运行
 
 ***
 
