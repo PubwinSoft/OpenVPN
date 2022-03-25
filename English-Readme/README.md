@@ -45,7 +45,7 @@ yum -y remove epel-release && yum -y remove openvpn easy-rsa
 
 # 🌠Deployment video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ksEo3UvHxsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Youtube : https://youtu.be/ksEo3UvHxsI
 
 </br>
 
