@@ -43,7 +43,8 @@ yum -y remove epel-release && yum -y remove openvpn easy-rsa
 </br>
 
 # 🌠部署视频
-#### 在做了...
+##### 涉及到VPN内容,B站等其他国内视频网站不允许上传,去Youtube看吧,委屈大家了
+#### Youtube : https://youtu.be/ksEo3UvHxsI
 
 </br>
 
