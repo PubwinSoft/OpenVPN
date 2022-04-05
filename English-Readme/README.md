@@ -31,7 +31,7 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 ## ❌Uninstall
 ### Centos
 ````
-yum -y remove epel-release && yum -y remove openvpn easy-rsa
+yum -y remove epel-release && yum -y remove openvpn easy-rsa && rm -rf /etc/openvpn
 ````
 
 > ❕ All services related to Openvpn cannot be used after uninstallation, please operate with caution
