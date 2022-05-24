@@ -21,6 +21,7 @@ wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/inst
 
 > 如服务器无法访问Github raw,您可以将脚本手动复制至服务器
 
+### 注意：如在安装openvpn时没有打开系统防火墙，可能会造成vpn无法访问外网的情况，故建议在运行脚本前执行： systemctl start firewalld 打开系统防火墙
 </br>
 
 ***
