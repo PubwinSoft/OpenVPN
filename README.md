@@ -1,6 +1,6 @@
 # Centos Openvpn quick deploy script
 # Cnetos 上的 Openvpn 快速部署脚本
-#### [简体中文版本](https://github.com/linglaoda/Openvpn-deployment/blob/main/Chinese-readme.md)
+#### [简体中文版本(Simplified Chinese version)](https://github.com/linglaoda/Openvpn-deployment/blob/main/Chinese-readme.md)
 #### It has been tested in Centos7, Centos8 systems and can run normally
 ##### ⚠ This script cannot be used for Ubuntu due to the discrepancy between the installation process of Ubuntu system and Centos system
 </br>
