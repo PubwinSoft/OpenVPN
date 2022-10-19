@@ -1,5 +1,5 @@
 
-## 🌐 Other languages
+## 🌐 中文版本 Readme
 #### [简体中文](https://github.com/linglaoda/Openvpn-deployment/blob/main/Chinese-readme.md)
 
 ***
