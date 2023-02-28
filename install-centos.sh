@@ -134,7 +134,7 @@ echo ------Get the configuration file and set the firewall and kernel forwarding
 # cd到server目录
 cd /etc/openvpn/server
 # 下载配置文件
-wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/datas/server.conf
+wget https://cdn.jsdelivr.net/gh/fuingzu/Openvpn-deployment@main/datas/server.conf
 
 # 开启内核转发
 echo 'net.ipv4.ip_forward = 1' >> /etc/sysctl.conf
@@ -156,7 +156,7 @@ systemctl start openvpn-server@server
 cd /etc/openvpn/client
 
 # 下载client配置文件
-wget https://cdn.jsdelivr.net/gh/linglaoda/Openvpn-deployment@main/datas/client.conf
+wget https://cdn.jsdelivr.net/gh/fuingzu/Openvpn-deployment@main/datas/client.conf
 
 clear
 
