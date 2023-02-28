@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Code by linglaoda
-# Blog：bingling.me
-# Project Url：https://github.com/linglaoda/Openvpn-deployment
+# Code by fuingzu
+# Blog：iling.uk
+# Project Url：https://github.com/fuingzu/Openvpn-deployment
 # 本脚本无法在Ubuntu系统中运行
 # This script does not work in Ubuntu system
 
