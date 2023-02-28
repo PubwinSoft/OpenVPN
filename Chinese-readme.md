@@ -11,7 +11,7 @@
 ## 🔮安装
 ### CentOS
 ````
-wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-centos.sh && bash install-centos.sh
+wget -N https://raw.githubusercontent.com/fuingzu/Openvpn-deployment/main/install-centos.sh && bash install-centos.sh
 ````
 
 > 如服务器无法访问Github raw,您可以将脚本手动复制至服务器
