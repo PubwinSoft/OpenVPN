@@ -1,5 +1,5 @@
 # Centos Openvpn quick deploy script
-#### [简体中文版本(Simplified Chinese version)](https://github.com/linglaoda/Openvpn-deployment/blob/main/Chinese-readme.md)
+#### [简体中文版本(Simplified Chinese version)](https://github.com/fuingzu/Openvpn-deployment/blob/main/Chinese-readme.md)
 #### It has been tested in Centos7, Centos8 systems and can run normally
 ##### ⚠ This script cannot be used for Ubuntu due to the discrepancy between the installation process of Ubuntu system and Centos system
 </br>
@@ -8,7 +8,7 @@
 ## 🔮Install
 ### CentOS
 ````
-wget -N https://raw.githubusercontent.com/linglaoda/Openvpn-deployment/main/install-centos.sh && bash install-centos.sh
+wget -N https://raw.githubusercontent.com/fuingzu/Openvpn-deployment/main/install-centos.sh && bash install-centos.sh
 ````
 
 > If the server cannot access Github raw, you can manually copy the script to the server
